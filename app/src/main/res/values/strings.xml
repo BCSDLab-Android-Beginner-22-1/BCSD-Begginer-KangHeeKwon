@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="sub_text">여기있다 무작위 숫자 사이 0과 </string>
 </resources>

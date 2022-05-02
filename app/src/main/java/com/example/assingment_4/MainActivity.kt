@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val countButton = findViewById<Button>(R.id.Count_button)
         val randomButton = findViewById<Button>(R.id.Random_button)
-        var countNumber = findViewById<TextView>(R.id.Count_number)
+        val countNumber = findViewById<TextView>(R.id.Count_number)
         var count = 0;
 
         countButton.setOnClickListener{

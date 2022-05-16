@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.assingment5.MainActivity"
-    android:background ="@color/Activity2_background_color">
+    android:background ="@color/Activity2_background_color"
+    android:elevation="1dp"
+    android:clickable="true">
 
 
     <TextView

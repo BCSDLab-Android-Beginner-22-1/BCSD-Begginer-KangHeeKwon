@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="sub_text">여기있다 무작위 숫자 사이 0과 </string>
+    <string name="title">제목이다</string>
+    <string name="content">여기 있다 무작위 숫자!</string>
+    <string name="talk_text">어쩔티비</string>
+    <string name="random_number">0</string>
+    <string name="toast_button_text">식빵</string>
+    <string name="count_number">0</string>
+    <string name="count_button_text">센다숫자</string>
+    <string name="random_button_text">가챠</string>
 </resources>

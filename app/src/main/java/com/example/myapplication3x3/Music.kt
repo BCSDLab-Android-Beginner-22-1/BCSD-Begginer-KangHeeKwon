@@ -3,21 +3,7 @@ package com.example.myapplication3x3
 import android.net.Uri
 import android.provider.MediaStore
 
-class Music(id:String, title:String?, artist:String?, albumId:String?, duration:Long?) {
-
-    var id: String = "" // 음원 자체 id임
-    var title:String? = ""
-    var artist:String? = ""
-    var albumId: String? = "" // 앨범이미지 id 저장 변쑤
-    var duration:Long? = 0
-
-    init{
-        this.id = id
-        this.title = title
-        this.artist = artist
-        this.albumId = albumId
-        this.duration = duration
-    }
+data class Music(val id:String = "", val title:String = "", val artist:String = "", val albumId:String = "", val duration:Long = 0) {
 
     fun getMusicUri(): Uri {
         return Uri.withAppendedPath(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI, id)
